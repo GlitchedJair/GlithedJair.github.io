@@ -1,0 +1,193 @@
+@charset "utf-8";
+@import url("../webfonts/pacifico/stylesheet.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@font-face{
+	font-family: "jair";
+	src:url("../webfonts/Minecraft.ttf");
+}
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+nav ul li a{
+	list-style-type: none;
+	font-size: 16px;
+	text-decoration: none;
+}
+nav ul li a:link{
+	color: #1F1F60;
+}
+nav ul li a:visited{
+	color: #6774C4;
+}
+header {
+	background-color: #84ADFF;
+	color: #E9FEFF;
+}
+header h1{
+	width: 50%;
+	margin: 0 auto;
+}
+nav{
+	background-color: #B8FFFD;
+}
+nav ul li{
+	width: 100px;
+	display: inline-block;
+}
+header,nav,main,footer{
+	margin: 0 auto;
+	padding: 20px;
+	width: 80%;
+}
+main {
+	background-color: #3A436F;
+	height: auto;
+	padding: 30px;
+}
+main section{
+	background-color: #486696;
+	padding: 30px;
+	margin: 30px auto;
+	width: 70%;
+}
+main section img{
+	border-left: 10px solid #FFFFFF;
+	border-right: 10px solid #FFFFFF;
+	border-bottom: 50px solid #FFFFFF;
+	border-top: 10px solid #FFFFFF;
+	margin-top: 20px;
+}
+footer{
+	background-color: #0F1B32;
+}
+footer h6{
+	color: aliceblue;
+	text-align: center;
+}#foto2 {
+    width: 70%;
+    margin-top: 20px;
+    border: 10px inset #3B4D6C;
+}
+#foto4 {
+    border-style: none;
+    width: 60%;
+}
+.foto5 {
+    border-style: none;
+    width: 40%;
+    float: left;
+    margin-left: 0px;
+    margin-right: 18px;
+    margin-top: 6px;
+}
+#foto_der {
+    float: right;
+    margin-left: 11px;
+    margin-top: 22px;
+}
+.fotosite {
+    width: 28%;
+    margin-left: 4px;
+    border-width: 5px;
+}
+.filtro_blur {
+    filter: blur(3px);
+}
+.filtro_brillo {
+    filter: brightness(70%);
+}
+.filtro_contraste {
+    filter: contrast(50%);
+}
+.filtro_grises {
+    filter: grayscale(100%);
+}
+.filtro_opacidad {
+    filter: opacity(30%);
+}
+.filtro_saturacion {
+    filter: saturate(50%);
+}
+.filtro_sepia {
+    filter: sepia(100%);
+}
+.filtro_inversion {
+    filter: invert(100%);
+}
+.p {
+    font-family: 'Montserrat', sans-serif;
+}
+.h2 {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    color: #0E0D42;
+    font-weight: lighter;
+}
+.h1 {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    color: #C6D6FF;
+    font-weight: lighter;
+    text-align: center;
+}
+.h {
+}
+.sites_video {
+    max-width: 68%;
+    width: auto;
+    padding-left: 10px;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=text],textarea
+{
+	width:30%;
+	padding:5px;
+	margin:5px 5px;
+	border: 2px solid #045074;
+	border-radius: 10px;
+	color: #070B3F;
+	background-color: #C9D9F0;
+}
+input[type=submit]{
+	width: 20%;
+	height: 20px;
+	background-color: #9FF0FD;
+	color: #132162;
+	border-radius: 7px;
+}
+input[type=submit]:hover{
+	width: 21%;
+	height: 21px;
+	background-color: #274997;
+	color: #FFFFFF;
+}
+#form3 #submit3:hover {
+	background-color: #361C80;
+	color: #FFFFFF;
+}
+.h2 {
+}
+main section h2 {
+    font-family: aclonica;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+}
+.fuentes_google_local {
+    font-family: pacifico;
+    font-variant: normal;
+    font-size: 23px;
+}
+.fuente_google_enlazada{
+    font-family: 'Hurricane', cursive;
+    font-size: 34px;
+}
+.titulo_jair{
+	font-family:"jair";
+}.imagen_section {
+    width: 50%;
+    height: auto;
+}

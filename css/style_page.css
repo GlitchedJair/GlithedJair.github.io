@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+header{
+	width: 80%;
+	height: 200px;
+	background-color: aqua;
+	margin: 0 auto;
+	padding: 20px;
+	color: chocolate;
+}
+nav{
+	height: 60px;
+	background-color: #4FABF7;
+	color: #111442;
+}
+main{
+	
+}
